@@ -15,7 +15,7 @@ let contarHasta10_2 = 0;
 for (let i = 0; i < 10; i++) {
   contarHasta10_2 += 1;
 }
-let postI,
+let postI = 0,
   postJ = 0;
 for (let k = 0; k < 11; k++) {
   postI += postJ++;
@@ -37,8 +37,8 @@ const booleanoMix2 =
   variableValorNumerico > 0 || variableValorNumerico < -(MiNumeroFav * TAU);
 const valorSuma = MiNumeroFav + variableValorNumerico;
 const valorResta = MiNumeroFav - variableValorNumerico;
-const valorMultiplicación = MiNumeroFav * variableValorNumerico;
-const valorDivisión = MiNumeroFav / variableValorNumerico;
+const valorMultiplicacion = MiNumeroFav * variableValorNumerico;
+const valorDivision = MiNumeroFav / 3;
 let contarHasta10 = 0;
 while (true) {
   if (contarHasta10 === 10) {
@@ -47,10 +47,10 @@ while (true) {
     contarHasta10 += 1;
   }
 }
-let preI,
+let preI = 0,
   preJ = 0;
 for (let k = 0; k < 11; k++) {
-  preI = ++preJ;
+  preI += ++preJ;
 }
 let sumaImpares = 0;
 for (let i = 0; i < 10; i++) {
